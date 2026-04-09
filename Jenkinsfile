@@ -41,9 +41,9 @@ pipeline {
 
                     set kubeconfig = %kubeconfig%
                     kubectl config set-context minikube
-                    kubeclt get nodes
-                    kubectl appyly -f K8S/deployment.yaml
-                    kubectl appyly -f K8S/service.yaml
+                    kubectl get nodes
+                    kubectl apply -f K8S/deployment.yaml
+                    kubectl apply -f K8S/service.yaml
 
                     '''
                     
