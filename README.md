@@ -35,4 +35,4 @@
 - Gained practical skills in CI/CD automation using GitLab and Jenkins.
 
 ## License
-- This project is open-source and available under the MIT License.
+- This project is open-source License.
